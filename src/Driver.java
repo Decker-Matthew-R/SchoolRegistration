@@ -60,8 +60,6 @@ public class Driver {
 
         //scanner object
         Scanner sc = new Scanner(System.in);
-        //repition variable for adding multiple students
-        boolean repition = false;
 
         do {
             System.out.println(" ");
@@ -75,6 +73,11 @@ public class Driver {
             String lname = sc.nextLine();
             System.out.println("Enter Student Year(1-4): ");
             int year = sc.nextInt();
+
+            //Add student via constructor
+            Student student = new Student(fname, lname,)                 /////////////////LEFT OFF HERE
+
+
         }
         while(repition);
 
