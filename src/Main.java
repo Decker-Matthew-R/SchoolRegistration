@@ -2,6 +2,11 @@ public class Main {
 
     public static void main (String[] args){
 
+    Driver driver = new Driver();
+
+    driver.mainMenu();
+
+
 
         //Test Data
 //        Student s1 = new Student("Matthew", "Decker", 40 );
